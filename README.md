@@ -2,4 +2,4 @@
 
 AlarmBot is a security patrol mobile robot that detects for intruders and alerts the user via LED lights and a buzzer
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/watch?v=4G10Rw6VVlw/0.jpg)](https://www.youtube.com/watch?v=4G10Rw6VVlw)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4G10Rw6VVlw/0.jpg)](https://www.youtube.com/watch?v=4G10Rw6VVlw)
