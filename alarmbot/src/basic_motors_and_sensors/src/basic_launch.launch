@@ -1,0 +1,14 @@
+<launch>
+  <!-- First load parameters from a YAML file -->
+  <!-- the "$(find _____)" piece locates the package path (this should be the package that holds the YAML file). -->
+  <!-- See the "roslaunch" page https://wiki.ros.org/roslaunch/XML -->
+  <rosparam command="load" file="$(find basic_motors_and_sensors)/src/myparms.yaml" />
+  
+  
+  <!-- Next launch a motor_node from the python file MotorNode2.py -->  
+  <node pkg="basic_motors_and_sensors" type="MotorNode2.py" name="motor_node" />
+  
+  <!-- Add any other nodes you want to launch -->  
+  
+  
+</launch>
